@@ -1,4 +1,4 @@
-package src.Day_16_OOP.Practice;
+package src.Day_16_OOP.Practice_1;
 
 import java.util.Scanner;
 
