@@ -11,5 +11,8 @@ public class MainApplication {
         for (LibraryMember member : members) {
             member.borrowBook();
         }
+
+        StudentMember frank = new StudentMember("Frank");
+        frank.borrowBook();
     }
 }
