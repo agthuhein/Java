@@ -15,5 +15,10 @@ public class Main_2 {
         myBird.makeSound();  //Bird-Specific Sound
         myBird.fly();  //Bird-Specific behavior
         myBird.sleep();  //Inherited from Animal
+
+        System.out.println("###############################################");
+
+        //Polymorphism
+        Animal_2 myDog2 = new Dog_2("Jenny", "Collie");
     }
 }
