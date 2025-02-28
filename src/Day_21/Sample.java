@@ -1,12 +1,10 @@
 package src.Day_21;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Stack;
-import java.util.Vector;
+import java.util.*;
 
 public class Sample {
     public static void main(String[] args) {
+        System.out.println("Array List");
         ArrayList<String> fruits = new ArrayList<>();
 
         //Adding elements
@@ -71,5 +69,27 @@ public class Sample {
         }
 
         System.out.println("Is the stack empty? " + fruits3.isEmpty());
+
+        System.out.println("###############################");
+        System.out.println("@@@HashSet@@@");
+
+        HashSet<String> set= new HashSet<>();
+        set.add("First");
+        set.add("Second");
+        set.add("Third");
+        set.add("Fourth");
+        //set.add("First");
+        System.out.println("HashSet after addition" + set);
+        boolean containFirst = set.contains("First");
+        System.out.println("contains First: " + containFirst);
+        set.remove("First");
+        System.out.println("Removed First: " + set);
+        System.out.println("Size of HashSet: " + set.size());
+
+        for (String sets : set) {
+            System.out.println(sets);
+        }
+        set.clear();
+        System.out.println("Size of HashSet after clearing: " + set.size());
     }
 }
