@@ -4,7 +4,24 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Day_24_IO/resources" type="java-resource" />
     </content>
+    <content url="file://$MODULE_DIR$/out" />
+    <content url="file://$MODULE_DIR$/out/production" />
+    <content url="file://$MODULE_DIR$/out/production/Java" />
+    <content url="file://$MODULE_DIR$/out/production/Java/.idea" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day1" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day2" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day3" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day4" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day5" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day_10" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day_11" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day_6" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day_7" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day_8" />
+    <content url="file://$MODULE_DIR$/out/production/Java/Day_9" />
+    <content url="file://$MODULE_DIR$/out/production/Java/src" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
